@@ -1,5 +1,7 @@
-# PixelWear
-тут ви зможете скачать скини
+skin-site/
+├── index.html
+├── style.css
+├── skinview3d.min.js (бібліотека)
 <!DOCTYPE html>
 <html lang="uk">
 <head>
@@ -50,3 +52,36 @@
   </script>
 </body>
 </html>
+ body {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  background: #1b2735;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  color: #00ccff;
+}
+
+#viewer {
+  margin: 20px auto;
+  border: 2px solid #00ccff;
+  width: 300px;
+  height: 400px;
+}
+
+input, button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  background: #00ccff;
+  color: white;
+  cursor: pointer;
+}
+
